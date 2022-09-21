@@ -3,9 +3,9 @@ import { useAuth } from '../../../context/authContext';
 
 export const Home = () => {
 
-  // const {user} = useAuth()
+  const {user} = useAuth()
 
-  // console.log(user);
+  console.log(user);
 
   return (
     <div>
